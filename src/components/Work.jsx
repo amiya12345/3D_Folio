@@ -1,5 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/fgnv.png';
+import TypeImg from '../assets/type.jpg'
 import { Link } from 'react-router-dom'
 import { BrowserRouter} from "react-router-dom";
 
@@ -16,7 +17,7 @@ const Work = (props) => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4 px-2'>
                 <BrowserRouter> 
                  <Link to='/project1'> 
-                      <div style={{ backgroundImage: `url(${WorkImg})` }}
+                      <div style={{ backgroundImage: `url(${TypeImg})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
 

@@ -8,8 +8,8 @@ import Project1 from './components/pages/Project1';
 ReactDOM.render(
   <React.StrictMode>
  <App />
-    <BrowserRouter basename="/project1">
-    <Project1/>
+    <BrowserRouter path="/project1">
+    
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
