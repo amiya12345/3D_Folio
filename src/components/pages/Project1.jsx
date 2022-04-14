@@ -1,17 +1,7 @@
-import React from 'react'
-import Navbar from '../Navbar'
-
+import React from 'react';
 
 const Project1 = () => {
-  return (
-  
-    <div>
-    
-      
-      Project1
+  return <div className='h-48 text-8xl pt-16'>Project1</div>;
+};
 
-    </div>
-  )
-}
-
-export default Project1
+export default Project1;
