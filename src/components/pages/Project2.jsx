@@ -2,7 +2,10 @@ import React from 'react'
 
 const Project2 = () => {
   return (
-    <div>Project2</div>
+    <div className='h-48 text-8xl pt-16'>
+
+      Amiya
+    </div>
   )
 }
 

@@ -4,7 +4,7 @@ import{AiOutlineLinkedin,AiOutlineBehance,AiOutlineGithub,AiOutlineDribbble,AiOu
 
 const Footer = () => {
     return (
-        <footer className='footer bg-omio relative pt-1'>
+        <footer className='footer bg-omio relative pt-1 pb-0'>
             <div className='container mx-auto px-className'>
 
                 <div className='sm:flex sm:mt-8'>

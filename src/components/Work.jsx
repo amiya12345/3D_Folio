@@ -2,8 +2,10 @@ import React from 'react';
 import WorkImg from '../assets/fgnv.png';
 import TypeImg from '../assets/type.jpg';
 import { Link } from 'react-router-dom';
+import {motion} from 'framer-motion'
 
-const Work = (props) => {
+
+const Work = () => {
   return (
     <div name='work' className='bg-omio'>
       <div className='max-w-screen mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -13,21 +15,16 @@ const Work = (props) => {
         {/*Container */}
 
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4 px-2'>
-          <Link to='/project1'>
-            <div
-              style={{ backgroundImage: `url(${TypeImg})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-            >
-              {/* Hover Effects */}
+        
+        <motion.div style={{ backgroundImage: `url(${TypeImg})` }}
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
 
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   36 Days Of Type
                 </span>
               </div>
-            </div>
-          </Link>
-
+            </motion.div >
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -40,6 +37,7 @@ const Work = (props) => {
               <div className='pt-8 text-center'></div>
             </div>
           </div>
+          
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'

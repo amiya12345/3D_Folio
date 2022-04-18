@@ -1,7 +1,20 @@
 import React from 'react';
 
 const Project1 = () => {
-  return <div className='h-48 text-8xl pt-16'>Project1</div>;
+  return(
+
+  <div className=' pt-16'>
+      <div className='w-100 h-screen'>
+
+      </div>
+     
+    
+    
+  </div>
+  
+  
+  
+  )
 };
 
 export default Project1;

@@ -30,9 +30,9 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='hover:text-sky-500'>
-                    <Link to="about" smooth={true} offset={0} duration={500}>
-                        Nft
-                    </Link>
+                    <a href='https://nft.wazirx.org/amiya_fury/created?sort=created-desc' target='_blank'>
+                       Nfts
+                    </a>
                 </li>
             </ul>
 
