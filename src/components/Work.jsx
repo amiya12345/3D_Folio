@@ -1,7 +1,6 @@
 import React from 'react';
 import WorkImg from '../assets/fgnv.png';
 import TypeImg from '../assets/type.jpg';
-import { Link } from 'react-router-dom';
 import {motion} from 'framer-motion'
 
 
