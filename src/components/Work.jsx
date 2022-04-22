@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkImg from '../assets/fgnv.png';
 import TypeImg from '../assets/type.jpg';
-import Abstracto from '../assets/untitled.png'
+import Abstracto from '../assets/untitled.jpg'
 import {motion} from 'framer-motion'
 
 
