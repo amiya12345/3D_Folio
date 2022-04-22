@@ -1,6 +1,7 @@
 import React from 'react';
 import WorkImg from '../assets/fgnv.png';
 import TypeImg from '../assets/type.jpg';
+import Abstracto from '../assets/untitled.png'
 import {motion} from 'framer-motion'
 
 
@@ -38,7 +39,7 @@ const Work = () => {
           </div>
           
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Abstracto})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}

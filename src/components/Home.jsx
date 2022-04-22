@@ -9,12 +9,11 @@ const Home = () => {
     <section name='home' className='max-h-[59.0625rem] relative'>
 
       <motion.div className='flex flex-col justify-center items-center absolute z-5 top-[50%] w-[100%]'
-        initial={{ opacity: 0,y:0 }} animate={{ opacity: 1,y:-10 }} transition={{delay:1 , duration: 2}}>
-
+        initial={{ opacity: 0, y: 0 }} animate={{ opacity: 1, y: -10 }} transition={{ delay: 1, duration: 2 }}>
 
         <p className='text-[32px] font-bold  max-w-3xl mx-auto text-nft'>
-          <Typed className='font-bold text-[32px] text-center max-w-3xl mx-auto text-nft' 
-          strings={['Hello!', 'Hola!', 'Namaste!', 'Bonjour!', 'Ciao!','Konnichiwa!']}
+          <Typed className='font-bold text-[32px] text-center max-w-3xl mx-auto text-nft'
+            strings={['Hello!', 'Hola!', 'Namaste!', 'Bonjour!', 'Ciao!', 'Konnichiwa!']}
             typeSpeed={80}
             backSpeed={80}
             loop
