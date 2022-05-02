@@ -60,9 +60,9 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='py-4 text-4xl'>
-                    <Link onClick={handleClick} to="about" smooth={true} offset={0} duration={700}>
-                        Nfts
-                    </Link>
+                <a href='https://nft.wazirx.org/amiya_fury/created?sort=created-desc' target='_blank' rel="noreferrer" >
+                       Nfts
+                    </a>
                 </li>
 
             </ul>
