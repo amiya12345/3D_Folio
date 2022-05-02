@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family:'PPMonumentExtended-Black';
+  src: url(./assets/fonts/PPMonumentExtended-Black.otf)
+}
+@font-face {
+  font-family:PPMonumentExtended-Regular ;
+  src: url(./assets/fonts/PPMonumentExtended-Regular.otf);
+}
+@font-face {
+  font-family: 'PPMonumentExtended-Light';
+  src: url(./assets/fonts/PPMonumentExtended-Light.otf);
+}
 @layer base {
   body{
    
@@ -12,6 +24,7 @@
   li{
     @apply px-8;
     @apply cursor-pointer;
+   
   }
 html{
   scrollbar-width: none;

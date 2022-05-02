@@ -1,40 +1,36 @@
 import React from 'react';
-import WorkImg from '../assets/fgnv.png';
+import WorkImg from '../assets/1.webp';
 import TypeImg from '../assets/type.jpg';
-import Abstracto from '../assets/untitled.jpg'
-import {motion} from 'framer-motion'
-
-
+import Abstracto from '../assets/untitled.webp'
 const Work = () => {
   return (
-    <div name='work' className='bg-omio'>
+    <div name='work' className='bg-omio font-omiofont2'>
       <div className='max-w-screen mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
           <p></p>
         </div>
         {/*Container */}
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4 px-2'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-6 px-6'>
         
-        <motion.div style={{ backgroundImage: `url(${TypeImg})` }}
+        <div style={{ backgroundImage: `url(${TypeImg})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
-
+           
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
+                <span className='lg:text-2xl font-bold text-white tracking-wider sm:text-[16px]'>
                   36 Days Of Type
                 </span>
               </div>
-            </motion.div >
+            </div>
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='lg:text-2xl font-bold text-white tracking-wider sm:text-[16px]'>
                 ETH Portal
               </span>
-              <div className='pt-8 text-center'></div>
             </div>
           </div>
           
@@ -44,10 +40,10 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='lg:text-2xl font-bold text-white tracking-wider sm:text-[16px]'>
                 Abstracto
               </span>
-              <div className='pt-8 text-center'></div>
+            
             </div>
           </div>
           <div
@@ -56,10 +52,10 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+              <span className='lg:text-2xl font-bold text-white tracking-wider sm:text-[16px]'>
                 7 Days of Tiny Rooms
               </span>
-              <div className='pt-8 text-center'></div>
+           
             </div>
           </div>
         </div>

@@ -7,14 +7,14 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
-        <div className='fixed w-full h-[72px] flex justify-between items-center px-4 bg-omio text-nft z-10'>
+        <div className='fixed w-full h-[72px] flex justify-between items-center px-4 bg-omio text-nft z-10 font-omiofont2'>
             <div>
                 AR.
             </div>
             {/* menu */}
 
-            <ul className='hidden md:flex'>
-                <li className='hover:text-sky-500'>
+            <ul className='hidden md:flex font-omiofont3 text-[16px] '>
+                <li className='hover:text-sky-500 '>
                     <Link to="home" smooth={true} offset={0} duration={500}>
                         Home
                     </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
             {/* Mobile Menu */}
 
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-omio flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-omio flex flex-col justify-center items-center font-omiofont3'}>
                 <li className='py-4 text-4xl'>
                     <Link onClick={handleClick} to="home" smooth={true} offset={0} duration={700}>
                         Home
