@@ -1,5 +1,5 @@
 import React from 'react';
-import TypeImg from '../assets/type.jpg';
+import TypeImg from '../assets/type.webp';
 import Abstracto from '../assets/untitled.webp'
 import Webi from '../assets/webi.webp'
 import Ethp from '../assets/Ethp.webp'
