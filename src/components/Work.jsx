@@ -3,6 +3,13 @@ import TypeImg from '../assets/type.webp';
 import Abstracto from '../assets/untitled.webp'
 import Webi from '../assets/webi.webp'
 import Ethp from '../assets/Ethp.webp'
+
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "UA-164321636-3";
+ReactGA.initialize(TRACKING_ID);
+
+
 const Work = () => {
   return (
     <div name='work' className='bg-omio font-omiofont2'>

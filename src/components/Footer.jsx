@@ -1,5 +1,9 @@
 import React from 'react'
 import{AiOutlineLinkedin,AiOutlineBehance,AiOutlineGithub,AiOutlineDribbble,AiOutlineTwitter} from 'react-icons/ai'
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "UA-164321636-3";
+ReactGA.initialize(TRACKING_ID);
 
 
 const Footer = () => {

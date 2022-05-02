@@ -1,5 +1,11 @@
 import React from 'react';
 
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "UA-164321636-3";
+ReactGA.initialize(TRACKING_ID);
+
+
 const About = () => {
   return (
     <div name='about' className='w-full h-screen bg-omio text-gray-300 '>
