@@ -15,7 +15,7 @@ function App() {
       <Work />
       <About />
       <Footer />
-
+    
     </div>
   );
 }

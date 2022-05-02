@@ -1,7 +1,8 @@
 import React from 'react';
-import WorkImg from '../assets/1.webp';
 import TypeImg from '../assets/type.jpg';
 import Abstracto from '../assets/untitled.webp'
+import Webi from '../assets/webi.jpg'
+import Ethp from '../assets/Ethp.jpg'
 const Work = () => {
   return (
     <div name='work' className='bg-omio font-omiofont2'>
@@ -23,7 +24,7 @@ const Work = () => {
               </div>
             </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Ethp})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -47,13 +48,13 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Webi})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='lg:text-2xl font-bold text-white tracking-wider sm:text-[16px]'>
-                7 Days of Tiny Rooms
+              3D Illustration
               </span>
            
             </div>
