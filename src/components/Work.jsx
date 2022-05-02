@@ -1,8 +1,8 @@
 import React from 'react';
 import TypeImg from '../assets/type.jpg';
 import Abstracto from '../assets/untitled.webp'
-import Webi from '../assets/webi.jpg'
-import Ethp from '../assets/Ethp.jpg'
+import Webi from '../assets/webi.webp'
+import Ethp from '../assets/Ethp.webp'
 const Work = () => {
   return (
     <div name='work' className='bg-omio font-omiofont2'>
