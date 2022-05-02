@@ -5,7 +5,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import ReactGA from 'react-ga';
 
-const TRACKING_ID = " G-R420GE3SC5";
+const TRACKING_ID = "G-4303858BV2";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
