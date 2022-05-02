@@ -48,22 +48,22 @@ const Navbar = () => {
             {/* Mobile Menu */}
 
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-omio flex flex-col justify-center items-center font-omiofont3'}>
-                <li className='py-4 text-4xl'>
+                <li className='py-3 text-2xl'>
                     <Link onClick={handleClick} to="home" smooth={true} offset={0} duration={700}>
                         Home
                     </Link>
                 </li>
-                <li className='py-4 text-4xl'>
+                <li className='py-3 text-2xl'>
                     <Link onClick={handleClick} to="work" smooth={true} offset={0} duration={700}>
                         Works
                     </Link>
                 </li>
-                <li className='py-4 text-4xl'>
+                <li className='py-3 text-2xl'>
                     <Link onClick={handleClick} to="about" smooth={true} offset={0} duration={700}>
                         About
                     </Link>
                 </li>
-                <li className='py-4 text-4xl'>
+                <li className='py-3 text-2xl'>
                 <a href='https://nft.wazirx.org/amiya_fury/created?sort=created-desc' target='_blank' rel="noreferrer" >
                        Nfts
                     </a>

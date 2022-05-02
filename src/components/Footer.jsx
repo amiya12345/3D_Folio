@@ -31,7 +31,9 @@ const Footer = () => {
                 <div className="mt-16 border-t-2 border-sky-500 flex flex-col items-center">
                     <div className="sm:w-2/3 text-center py-6">
                         <p className="text-sm text-nft font-bold mb-2 font-omiofont3">
-                            © 2022 Design & Develope by AR.
+                            © 2022 Design & Develope by 
+
+                            Amiya.
                         </p>
                     </div>
                 </div>
