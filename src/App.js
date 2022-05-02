@@ -3,8 +3,10 @@ import Home from './components/Home';
 import Work from './components/Work';
 import About from './components/About';
 import Footer from './components/Footer';
+import ReactGA from 'react-ga';
 
-
+const TRACKING_ID = "UA-164321636-3";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
