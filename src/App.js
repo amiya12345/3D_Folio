@@ -9,7 +9,10 @@ const TRACKING_ID = "UA-164321636-3";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
+
+  
   return (
+    
     <div className="App">
 
       <Navbar />
