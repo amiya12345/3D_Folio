@@ -3,7 +3,6 @@ import TypeImg from '../assets/type.webp';
 import Abstracto from '../assets/untitled.webp'
 import Webi from '../assets/webi.webp'
 import Ethp from '../assets/Ethp.webp'
-
 import ReactGA from "react-ga";
 
 const TRACKING_ID = "UA-164321636-3";
@@ -20,7 +19,7 @@ const Work = () => {
         {/*Container */}
 
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4 px-4'>
-        
+        <a href='https://www.behance.net/gallery/142907041/36-Days-of-Typo'  target='_blank' rel="noreferrer"> 
         <div style={{ backgroundImage: `url(${TypeImg})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
            
@@ -29,7 +28,11 @@ const Work = () => {
                   36 Days Of Type
                 </span>
               </div>
+            
             </div>
+            </a>
+
+            <a href='https://www.behance.net/gallery/142924833/The-Ethereum-portals'  target='_blank' rel="noreferrer"> 
           <div
             style={{ backgroundImage: `url(${Ethp})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -41,7 +44,8 @@ const Work = () => {
               </span>
             </div>
           </div>
-          
+          </a>
+          <a href='https://www.behance.net/gallery/142907041/36-Days-of-Typo'  target='_blank' rel="noreferrer"> 
           <div
             style={{ backgroundImage: `url(${Abstracto})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -54,6 +58,8 @@ const Work = () => {
             
             </div>
           </div>
+          </a>
+          <a href='https://www.behance.net/gallery/142907041/36-Days-of-Typo'  target='_blank' rel="noreferrer"> 
           <div
             style={{ backgroundImage: `url(${Webi})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -66,6 +72,7 @@ const Work = () => {
            
             </div>
           </div>
+          </a>
         </div>
       </div>
     </div>
