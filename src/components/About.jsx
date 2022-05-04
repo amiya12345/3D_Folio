@@ -22,8 +22,8 @@ const About = () => {
               <p>Hi. I'm Amiya, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p className='font-omiofont3 lg:text-[16px] sm:text-[12px]'>lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-                like Aldus PageMaker including versions of Lorem Ipsum .</p>  
+              <p className='font-omiofont3 lg:text-[16px] sm:text-[12px]'>I’m a 3D generalist, with a constant obsession to inject uniqueness & delight into all my crafts. In just a year, I’ve minted and sold NFTs involving 3D animations for more than two thousand Dollars. Lately,
+               I’ve attained fluency in coding & I’m intrigued by the possibilities offered by the Metaverse.</p>  
             </div>
           </div>
       </div>
