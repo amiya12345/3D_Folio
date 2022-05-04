@@ -45,7 +45,7 @@ const Work = () => {
             </div>
           </div>
           </a>
-          <a href='https://www.behance.net/gallery/142907041/36-Days-of-Typo'  target='_blank' rel="noreferrer"> 
+          <a href='https://www.behance.net/gallery/142934087/Abstracto'  target='_blank' rel="noreferrer"> 
           <div
             style={{ backgroundImage: `url(${Abstracto})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
