@@ -15,7 +15,7 @@ const Home = () => {
         initial={{ opacity: 0, y: 0 }} animate={{ opacity: 1, y: -10 }} transition={{ delay: 1, duration: 2 }}>
 
         <p className='text-[32px] font-bold  max-w-3xl mx-auto text-nft'>
-          <Typed className='font-bold lg:text-[32px] sm:text-[16px] text-center max-w-3xl mx-auto text-nft'
+          <Typed className='lg:font-bold lg:text-[32px] sm:text-[16px] sm:font-semibold text-center max-w-3xl mx-auto text-nft'
             strings={['Hello!', 'Hola!', 'Namaste!', 'Bonjour!', 'Ciao!', 'Konnichiwa!']}
             typeSpeed={80}
             backSpeed={80}
@@ -23,14 +23,15 @@ const Home = () => {
           />
           I am
         </p>
-        <h1 className=" font-semibold text-3xl sm:text-3xl lg:text-6xl  text-center dark:text-nft tracking-widest font-omiofont1">
+        <h1 className=" font-semibold text-3xl lg:text-6xl lg:tracking-[12px]  text-center dark:text-nft  font-omiofont1  sm:text-3xl tracking-[2px]">
           Amiya Ranjan
         </h1>
-    {/* Prof    <p className='text-[32px] font-bold  max-w-3xl mx-auto text-nft' >3D Generalist</p>*/} 
+        <p className='lg:text-[24px] font-semibold  max-w-3xl mx-auto text-nft lg:tracking-[8px] sm:text-[16px tracking-[4px]' >3D Generalist | NFT Geek </p>
+  
       </motion.div>
       <div className="max-h-[59.0625rem] mt-0 mb-auto ml-auto mr-auto overflow-hidden">
         <div className="w-[100%] h-[100%] flex">
-          <Spline scene="https://draft.spline.design/TUzOCtxP59E5CxOg/scene.spline" />
+        <Spline scene="https://draft.spline.design/TUzOCtxP59E5CxOg/scene.spline" />
         </div>
       </div>
     </section>
