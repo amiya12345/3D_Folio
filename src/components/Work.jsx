@@ -3,6 +3,7 @@ import TypeImg from '../assets/type.webp';
 import Abstracto from '../assets/untitled.webp'
 import Webi from '../assets/webi.webp'
 import Ethp from '../assets/Ethp.webp'
+import Cyber from '../assets/Cyber.webp'
 import ReactGA from "react-ga";
 
 const TRACKING_ID = "UA-164321636-3";
@@ -31,7 +32,20 @@ const Work = () => {
             
             </div>
             </a>
-
+            <a href='https://www.behance.net/gallery/143047525/3D-ILLUSTRATION'  target='_blank' rel="noreferrer"> 
+          <div
+            style={{ backgroundImage: `url(${Webi})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='lg:text-2xl font-bold text-white tracking-wider sm:text-[16px]'>
+              3D Illustration
+              </span>
+           
+            </div>
+          </div>
+          </a>
             <a href='https://www.behance.net/gallery/142924833/The-Ethereum-portals'  target='_blank' rel="noreferrer"> 
           <div
             style={{ backgroundImage: `url(${Ethp})` }}
@@ -59,20 +73,21 @@ const Work = () => {
             </div>
           </div>
           </a>
-          <a href='https://www.behance.net/gallery/142907041/36-Days-of-Typo'  target='_blank' rel="noreferrer"> 
+          <a href='https://www.behance.net/gallery/142934087/Abstracto'  target='_blank' rel="noreferrer"> 
           <div
-            style={{ backgroundImage: `url(${Webi})` }}
+            style={{ backgroundImage: `url(${Cyber})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='lg:text-2xl font-bold text-white tracking-wider sm:text-[16px]'>
-              3D Illustration
+                Cyberpunk
               </span>
-           
+            
             </div>
           </div>
           </a>
+       
         </div>
       </div>
     </div>

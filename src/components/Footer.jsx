@@ -16,11 +16,13 @@ const Footer = () => {
                         <div class='flex flex-col items-center'>
                             <span className="font-bold text-gray-700 uppercase mb-2">Connect with me</span>
                             <div className='flex justify-between text-[32px] py-4 '>
+                            <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineBehance/></a></span>
                                 <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><span><AiOutlineLinkedin/></span></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-blue-700  text-md hover:text-blue-500"><AiOutlineBehance/></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-blue-700  text-md hover:text-blue-500"><AiOutlineGithub/></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-blue-700  text-md hover:text-blue-500"><AiOutlineDribbble/></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-blue-700  text-md hover:text-blue-500"><AiOutlineTwitter/></a></span>
+                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineTwitter/></a></span>
+                                
+                                <span className="my-2 px-4"><a href='/' className="text-nft  text-md hover:text-blue-500"><AiOutlineGithub/></a></span>
+                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineDribbble/></a></span>
+                                
                             </div>
                         </div>
 
