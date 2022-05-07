@@ -1,5 +1,5 @@
 import React from 'react'
-import{AiOutlineLinkedin,AiOutlineBehance,AiOutlineGithub,AiOutlineDribbble,AiOutlineTwitter} from 'react-icons/ai'
+import { AiOutlineLinkedin, AiOutlineBehance, AiOutlineGithub, AiOutlineDribbble, AiOutlineTwitter } from 'react-icons/ai'
 import ReactGA from "react-ga";
 
 const TRACKING_ID = "UA-164321636-3";
@@ -16,13 +16,11 @@ const Footer = () => {
                         <div class='flex flex-col items-center'>
                             <span className="font-bold text-gray-700 uppercase mb-2">Connect with me</span>
                             <div className='flex justify-between text-[32px] py-4 '>
-                            <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineBehance/></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><span><AiOutlineLinkedin/></span></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineTwitter/></a></span>
-                                
-                                <span className="my-2 px-4"><a href='/' className="text-nft  text-md hover:text-blue-500"><AiOutlineGithub/></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineDribbble/></a></span>
-                                
+                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineBehance /></a></span>
+                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineLinkedin /></a></span>
+                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineTwitter /></a></span>
+                                <span className="my-2 px-4"><a href='/' className="text-nft  text-md hover:text-blue-500"><AiOutlineGithub /></a></span>
+                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineDribbble /></a></span>
                             </div>
                         </div>
 
@@ -33,7 +31,7 @@ const Footer = () => {
                 <div className="mt-16 border-t-2 border-sky-500 flex flex-col items-center">
                     <div className="sm:w-2/3 text-center py-6">
                         <p className="text-sm text-nft font-bold mb-2 font-omiofont3">
-                            © 2022 Design & Develope by 
+                            © 2022 Design & Develope by
 
                             Amiya.
                         </p>

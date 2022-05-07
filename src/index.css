@@ -37,24 +37,28 @@ html{
   background-size:cover;
   background-position: center;
   aspect-ratio: 16 / 9;
-  background-color:#f2f2f2;
-  opacity: 0.8;
+
+
 }
+.content-di{
+  aspect-ratio: 16/9;
+  background-image: no-repeat;
+  background-size:cover;
+  background-position: center;
+  
+}
+
 .content-div:hover{
   transition: 1s ease;
   background-color:#f2f2f2;
   opacity: 0.8;
-
-}
-.overlay{
- 
- 
-  height: 100%;
-  width: 100%;
-  opacity: 0;
+  transition: smooth;
+  -webkit-transition: smooth;
+  -moz-transition: smooth;
+  -ms-transition: smooth;
+  -o-transition: smooth;
   transition: .5s ease;
-  background-color: #fcfcfc
 }
-.content-div:hover .overlay{
-  opacity: 0.8;
-}
+              
+
+

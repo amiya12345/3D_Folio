@@ -16,14 +16,15 @@ const About = () => {
             </p>
           </div>
           </div>
-          <div className='max-w-full w-full grid sm:grid-cols-2 gap-8 px-4 '>
-            <div  className='max-w-full h-auto object-cover'>
+          <div className='max-w-full w-full grid lg:px-8 sm:grid-cols-2 gap-8 px-4  rounded-md  '>
+            <div  className='bg-[url(./assets/About.webp)] content-di  rounded-md '>
               
             </div>
-            <div>
-              <p className='font-omiofont3 lg:text-[16px] sm:text-[12px]'>I’m a 3D generalist, with a constant obsession to inject uniqueness & delight into all my crafts. In just a year, I’ve minted and sold NFTs involving 3D animations for more than two thousand Dollars. Lately,
-               I’ve attained fluency in coding & I’m intrigued by the possibilities offered by the Metaverse. Currently  I’m a
-                final-year student at NIT Rourkela.</p>  
+            <div className='flex'>
+              <p className='font-omiofont3 lg:text-[16px] sm:text-[12px] leading-loose lg:tracking-[2px] sm:tracking-[0px]'>I’m a 3D generalist, with a constant obsession to inject uniqueness & delight into all my crafts.
+              I’ve minted and sold NFTs involving 3D animations on various NFT marketplace. Lately,
+               I’ve attained some knowledge in coding, mainly frontend-development & I’m intrigued by the possibilities offered by the Metaverse. Currently  I’m a
+                final-year student at NIT Rourkela. </p>  
             </div>
           </div>
       </div>
