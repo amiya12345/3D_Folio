@@ -1,8 +1,5 @@
 import React from 'react';
-import ReactGA from "react-ga";
 
-const TRACKING_ID = "G-CK1R436B5M";
-ReactGA.initialize(TRACKING_ID);
 
 
 const About = () => {

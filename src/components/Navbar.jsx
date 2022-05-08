@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll';
-import ReactGA from "react-ga";
-
-const TRACKING_ID = "UA-164321636-3";
-ReactGA.initialize(TRACKING_ID);
 
 
 const Navbar = () => {

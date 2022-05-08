@@ -2,11 +2,6 @@ import React from 'react'
 import Spline from '@splinetool/react-spline';
 import Typed from 'react-typed';
 import { motion } from 'framer-motion'
-import ReactGA from 'react-ga';
-
-
-const TRACKING_ID = "G-D2QEDW92TL";
-ReactGA.initialize(TRACKING_ID);
 
 const Home = () => {
   return (
