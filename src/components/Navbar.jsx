@@ -31,7 +31,7 @@ const Navbar = () => {
                 </li>
                 <li className='hover:text-sky-500'>
                     <a href='https://nft.wazirx.org/amiya_fury/created?sort=created-desc' target='_blank' rel="noreferrer" >
-                       Nfts
+                       NFTs
                     </a>
                 </li>
             </ul>
