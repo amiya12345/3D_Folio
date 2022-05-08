@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import ReactGA from 'react-ga';
 
 
-const TRACKING_ID = "G-R420GE3SC5";
+const TRACKING_ID = "G-D2QEDW92TL";
 ReactGA.initialize(TRACKING_ID);
 
 const Home = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import { AiOutlineLinkedin, AiOutlineBehance, AiOutlineGithub, AiOutlineDribbble, AiOutlineTwitter } from 'react-icons/ai'
 import ReactGA from "react-ga";
 
-const TRACKING_ID = "UA-164321636-3";
+const TRACKING_ID = "G-D2QEDW92TL";
 ReactGA.initialize(TRACKING_ID);
 
 
@@ -16,11 +16,12 @@ const Footer = () => {
                         <div class='flex flex-col items-center'>
                             <span className="font-bold text-gray-700 uppercase mb-2">Connect with me</span>
                             <div className='flex justify-between text-[32px] py-4 '>
-                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineBehance /></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineLinkedin /></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineTwitter /></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-nft  text-md hover:text-blue-500"><AiOutlineGithub /></a></span>
-                                <span className="my-2 px-4"><a href='/' className="text-nft text-md hover:text-blue-500"><AiOutlineDribbble /></a></span>
+                                <span className="my-2 px-4"><a href='https://www.behance.net/amiyarsethi1' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineBehance /></a></span>
+
+                                <span className="my-2 px-4"><a href='https://twitter.com/amiya_ars' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineTwitter /></a></span>
+                                <span className="my-2 px-4"><a href='https://github.com/amiya12345' target='_blank' rel="noreferrer" className="text-nft  text-md hover:text-blue-500"><AiOutlineGithub /></a></span>
+                                <span className="my-2 px-4"><a href='https://dribbble.com/ard_design' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineDribbble /></a></span>
+                                <span className="my-2 px-4"><a href='https://www.linkedin.com/in/amiya-ranjan-sethi-618711165/' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineLinkedin /></a></span>
                             </div>
                         </div>
 
