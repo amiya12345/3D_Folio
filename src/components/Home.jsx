@@ -18,7 +18,7 @@ const Home = () => {
           />
           I am
         </p>
-        <h1 className=" font-semibold text-3xl lg:text-6xl lg:tracking-[12px]  text-center dark:text-nft  font-omiofont1  sm:text-3xl tracking-[2px]">
+        <h1 className=" font-semibold text-3xl lg:text-6xl lg:tracking-[12px]  text-center text-nft  font-omiofont1  sm:text-3xl tracking-[2px]">
           Amiya Ranjan
         </h1>
         <p className='lg:text-[24px] font-semibold py-3  max-w-3xl mx-auto text-nft lg:tracking-[8px] sm:text-[16px tracking-[4px]' >3D Generalist | NFT Geek </p>
