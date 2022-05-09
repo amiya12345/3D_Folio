@@ -4,16 +4,16 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section name='about' className='w-full h-screen bg-omio text-gray-300 '>
+    <section name='about' className='w-full h-screen bg-omio text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-full w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right pb-8 pl-4'>
-            <p className='text-3xl font-bold inline border-b-4 border-sky-400 font-omiofont2 '>
+        <div className='max-w-full w-full grid grid-cols-2 gap-8 px-8 pb-8'>
+          <div className=' lg:pb-8 sm:text-right'>
+            <p className='lg:text-3xl font-bold inline border-b-4 border-sky-400 font-omiofont2 sm:text-2xl '>
               About
-            </p>
+            </p> 
           </div>
           </div>
-          <div className='max-w-full w-full grid lg:px-8 sm:grid-cols-2 gap-8 px-4  rounded-md  '>
+          <div className='max-w-full w-full grid lg:px-8 sm:grid-cols-2 gap-8 px-8  rounded-md  '>
             <div  className='bg-[url(./assets/About.webp)] content-di  rounded-md '>
               
             </div>
