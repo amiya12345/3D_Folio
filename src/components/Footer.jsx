@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className='mt-8 sm:mt-0 sm:w-full sm:px-8 flex justify-center flex-col md:flex-row'>
                         <div class='flex flex-col items-center'>
                             <span className="font-bold text-gray-700 uppercase mb-2">Connect with me</span>
-                            <div className='flex justify-between text-[32px] py-4 '>
+                            <div className='flex justify-between lg:text-[32px] py-4 sm:text-[24px] '>
                                 <span className="my-2 px-4"><a href='https://www.behance.net/amiyarsethi1' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineBehance /></a></span>
                                 <span className="my-2 px-4"><a href='mailto:amiyaranjansethi0551@gmail.com' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineMail /></a></span>
                                 <span className="my-2 px-4"><a href='https://twitter.com/amiya_ars' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineTwitter /></a></span>
