@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineLinkedin, AiOutlineBehance, AiOutlineGithub, AiOutlineDribbble, AiOutlineTwitter } from 'react-icons/ai'
+import { AiOutlineLinkedin, AiOutlineBehance, AiOutlineGithub, AiOutlineDribbble, AiOutlineTwitter,AiOutlineMail } from 'react-icons/ai'
 
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
                             <span className="font-bold text-gray-700 uppercase mb-2">Connect with me</span>
                             <div className='flex justify-between text-[32px] py-4 '>
                                 <span className="my-2 px-4"><a href='https://www.behance.net/amiyarsethi1' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineBehance /></a></span>
-
+                                <span className="my-2 px-4"><a href='mailto:amiyaranjansethi0551@gmail.com' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineMail /></a></span>
                                 <span className="my-2 px-4"><a href='https://twitter.com/amiya_ars' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineTwitter /></a></span>
                                 <span className="my-2 px-4"><a href='https://github.com/amiya12345' target='_blank' rel="noreferrer" className="text-nft  text-md hover:text-blue-500"><AiOutlineGithub /></a></span>
                                 <span className="my-2 px-4"><a href='https://dribbble.com/ard_design' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineDribbble /></a></span>
