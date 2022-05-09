@@ -6,9 +6,9 @@ const About = () => {
   return (
     <section name='about' className='w-full h-screen bg-omio text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-full w-full grid grid-cols-2 gap-8 px-8 pb-8'>
+        <div className='max-w-full w-full grid grid-cols-2 gap-8 px-8 pb-6'>
           <div className=' lg:pb-8 sm:text-right'>
-            <p className='lg:text-3xl font-bold inline border-b-4 border-sky-400 font-omiofont2 sm:text-2xl '>
+            <p className='lg:text-3xl font-bold inline border-b-4 border-sky-400 font-omiofont2 sm:text-2.5xl '>
               About
             </p> 
           </div>
