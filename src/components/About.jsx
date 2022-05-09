@@ -4,11 +4,11 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section name='about' className='w-full h-screen bg-omio text-gray-300'>
+    <section name='about' className='w-full h-screen bg-omio text-gray-300 px-0 sm:px-10'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-      <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+      <div className='max-w-100 w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 px-8'>
-            <p className='lg:text-4xl font-bold inline border-b-4 border-sky-500 text-3xl'>
+            <p className='lg:text-3xl font-bold inline border-b-2 border-sky-500 text-3xl font-omiofont2'>
               About
             </p>
           </div>
