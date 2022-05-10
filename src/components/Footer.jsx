@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='sm:flex sm:mt-8'>
                     <div className='mt-8 sm:mt-0 sm:w-full sm:px-8 flex justify-center flex-col md:flex-row'>
                         <div class='flex flex-col items-center'>
-                            <span className="font-bold text-gray-700 uppercase mb-2">Connect with me</span>
+                            <span className="font-bold text-gray-700 uppercase mb-1 font-omiofont2">Connect with me</span>
                             <div className='text-[24px] flex justify-between items-center py-4 lg:text-[32px]'>
                                 <span className="my-2 px-4"><a href='https://www.behance.net/amiyarsethi1' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineBehance /></a></span>
                                 <span className="my-2 px-4"><a href='mailto:amiyaranjansethi0551@gmail.com' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineMail /></a></span>
@@ -25,12 +25,12 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container mx-auto px-6">
-                <div className="mt-16 border-t-2 border-sky-500 flex flex-col items-center">
+                <div className="border-t-2 border-sky-500 flex flex-col items-center">
                     <div className="sm:w-2/3 text-center py-6">
-                        <p className="text-sm text-nft font-bold mb-2 font-omiofont3">
+                        <p className="text-sm text-nft font-bold mb-0 font-omiofont3">
                             © 2022 Design & Develope by
 
-                            Amiya.
+                            <span className='text-sky-500 ml-2'>Amiya.</span>
                         </p>
                     </div>
                 </div>

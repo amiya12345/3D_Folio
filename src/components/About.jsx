@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section name='about' className='w-full h-screen bg-omio text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-      <div className='max-w-100 w-full grid grid-cols-2 gap-8'>
+      <div className='max-w-full w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 px-8'>
             <p className='lg:text-3xl font-bold inline border-b-2 border-sky-500 text-3xl font-omiofont2'>
               About
@@ -19,7 +19,7 @@ const About = () => {
               
             </div>
             <div className='flex'>
-              <p className='font-omiofont3 lg:text-[16px] sm:text-[12px] leading-loose lg:tracking-[2px] sm:tracking-[0px]'>I’m a 3D generalist, with a constant obsession to inject uniqueness & delight into all my crafts.
+              <p className='font-omiofont3 lg:text-[16px] sm:text-[12px] leading-loose lg:tracking-[2px] sm:tracking-[1px]'>I’m a 3D generalist, with a constant obsession to inject uniqueness & delight into all my crafts.
               I’ve minted and sold NFTs involving 3D animations on various NFT marketplace. Lately,
                I’ve attained some knowledge in coding, mainly frontend-development & I’m intrigued by the possibilities offered by the Metaverse. Currently  I’m a
                 final-year student at NIT Rourkela. </p>  
