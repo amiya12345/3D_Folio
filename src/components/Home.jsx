@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section name='home' className='max-h-[59.0625rem] relative'>
       <motion.div className='flex flex-col justify-center items-center absolute z-5 top-[50%] w-[100%]'
-        initial={{ opacity: 0, y: 0 }} animate={{ opacity: 1, y: -10 }} transition={{ delay: 1, duration: 2 }}>
+        initial={{ opacity: 0, y: 0 }} animate={{ opacity: 1, y: -10 }} transition={{ delay: 1, duration: 2.5 ,type : "spring" }}>
 
         <p className='text-[32px] font-bold  max-w-3xl mx-auto text-nft'>
           <Typed className='lg:font-bold lg:text-[32px] sm:text-[16px] sm:font-semibold text-center max-w-3xl mx-auto text-nft'

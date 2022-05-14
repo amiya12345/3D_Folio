@@ -20,7 +20,6 @@ const Footer = () => {
                                 <span className="my-2 px-4"><a href='https://www.linkedin.com/in/amiya-ranjan-sethi-618711165/' target='_blank' rel="noreferrer" className="text-nft text-md hover:text-blue-500"><AiOutlineLinkedin /></a></span>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -29,8 +28,7 @@ const Footer = () => {
                     <div className="sm:w-2/3 text-center py-6">
                         <p className="text-sm text-nft font-bold mb-0 font-omiofont3">
                             © 2022 Design & Develope by
-
-                            <span className='text-sky-500 ml-2'>Amiya.</span>
+                           <span className='text-sky-500 ml-2'>Amiya.</span>
                         </p>
                     </div>
                 </div>

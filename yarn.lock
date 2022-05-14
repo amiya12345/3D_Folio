@@ -6942,6 +6942,11 @@ raw-body@2.4.3:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-3d-hover@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-3d-hover/-/react-3d-hover-1.1.1.tgz#76455dff8c1e41513f3210fc186e4a4206c787b6"
+  integrity sha512-4Y9pr/mtkC/dVAwY+nfG1sQXeunD/0VDf1io75G6t4GhfFes7vQxbzJua2+M9xdYzL+u3RXSPAM8bzVPjOaPDw==
+
 react-app-polyfill@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-3.0.0.tgz#95221e0a9bd259e5ca6b177c7bb1cb6768f68fd7"
