@@ -24,13 +24,12 @@ const About = () => {
             <div className='flex'>
               <p className='font-omiofont3 lg:text-[16px] sm:text-[12px] leading-loose lg:tracking-[2px] sm:tracking-[1px]'>I’m a 3D generalist, with a constant obsession to inject uniqueness & delight into all my crafts.
               I’ve minted and sold NFTs involving 3D animations on various NFT marketplace. Lately,
-               I’ve attained some knowledge in coding, mainly frontend-development & I’m intrigued by the possibilities offered by the Metaverse and 3D Design.Currently  I’m a
+               I’ve attained some knowledge in coding, mainly front-end development & I’m intrigued by the possibilities offered by the Metaverse and 3D Design.Currently  I’m a
                 final-year student at NIT Rourkela. </p>  
             </div>
           </div>
       </div>
-      
-    </section>
+ </section>
   );
 };
 

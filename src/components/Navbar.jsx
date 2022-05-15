@@ -14,7 +14,7 @@ const Navbar = () => {
             {/* menu */}
 
             <ul className='hidden md:flex font-omiofont3 text-[16px] '>
-                <li className='hover:text-sky-500 '>
+                <li className='hover:text-sky-500'>
                     <Link to="home" smooth={true} offset={0} duration={500}>
                         Home
                     </Link>

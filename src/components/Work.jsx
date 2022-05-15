@@ -12,7 +12,7 @@ const Work = () => {
     <div name='work' className='bg-omio font-omiofont2'>
       <div className='max-w-screen mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4 px-4'>
-          <Hover scale={0.9} perspective={900} speed={500} >
+          <Hover scale={0.9} perspective={1000} speed={500} >
           <a href='https://www.behance.net/gallery/142907041/36-Days-of-Typo' target='_blank' rel="noreferrer">
             <div style={{ backgroundImage: `url(${TypeImg})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' >
@@ -25,7 +25,7 @@ const Work = () => {
             </div>
           </a>
           </Hover>
-          <Hover scale={0.9} perspective={900} speed={500}>
+          <Hover scale={0.9} perspective={1000} speed={500}>
           <a href='https://www.behance.net/gallery/143047525/3D-ILLUSTRATION' target='_blank' rel="noreferrer">
             <div
               style={{ backgroundImage: `url(${Webi})` }}
@@ -41,7 +41,7 @@ const Work = () => {
             </div>
           </a>
           </Hover>
-          <Hover scale={0.9} perspective={900} speed={500}>
+          <Hover scale={0.9} perspective={1000} speed={500}>
           <a href='https://www.behance.net/gallery/142924833/The-Ethereum-portals' target='_blank' rel="noreferrer">
             <div
               style={{ backgroundImage: `url(${Ethp})` }}
@@ -56,7 +56,7 @@ const Work = () => {
             </div>
           </a>
           </Hover>
-           <Hover scale={0.9} perspective={900} speed={500}>
+           <Hover scale={0.9} perspective={1000} speed={500}>
           <a href='https://www.behance.net/gallery/142934087/Abstracto' target='_blank' rel="noreferrer">
             <div
               style={{ backgroundImage: `url(${Abstracto})` }}
