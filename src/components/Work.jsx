@@ -9,7 +9,7 @@ import Hover from 'react-3d-hover';
 
 const Work = () => {
   return (
-    <div name='work' className='bg-omio font-omiofont2'>
+    <section name='work' className='bg-omio font-omiofont2 '>
       <div className='max-w-screen mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4 px-4'>
           <Hover scale={0.9} perspective={1000} speed={500} >
@@ -75,7 +75,7 @@ const Work = () => {
 
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,6 @@ import React from 'react'
 import Spline from '@splinetool/react-spline';
 import Typed from 'react-typed';
 import { motion } from 'framer-motion'
-
 const Home = () => {
   return (
     <section name='home' className='max-h-[59.0625rem] relative'>
