@@ -4,8 +4,8 @@ import { AiOutlineLinkedin, AiOutlineBehance, AiOutlineGithub, AiOutlineDribbble
 
 const Footer = () => {
     return (
-        <footer className='footer bg-omio pt-1 pb-0 relative'>
-            <div className='container mx-auto px-className'>
+        <footer className='footer bg-omio pt-1 pb-0 relative max-w-screen-2xl '>
+            <div className='container mx-auto px-className max-w-screen-2xl'>
 
                 <div className='sm:flex sm:mt-8'>
                     <div className='mt-8 sm:mt-0 sm:w-full sm:px-8 flex justify-center flex-col md:flex-row'>
@@ -27,7 +27,7 @@ const Footer = () => {
                 <div className="border-t-2 border-sky-500 flex flex-col items-center">
                     <div className="sm:w-2/3 text-center py-6">
                         <p className="text-sm text-nft font-bold mb-0 font-omiofont3">
-                            © 2022 Design & Develope by
+                            © 2022 Designed and Developed by
                            <span className='text-sky-500 ml-2'>Amiya.</span>
                         </p>
                     </div>
