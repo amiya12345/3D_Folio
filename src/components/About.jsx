@@ -4,8 +4,8 @@ import Hover from 'react-3d-hover';
 
 const About = () => {
   return (
-    <section name='about' className=' h-screen bg-omio text-gray-300 max-w-screen-2xl'>
-      <div className='flex flex-col justify-center items-center w-full h-full'>
+    <section name='about' className=' h-screen bg-omio text-gray-300 max-w-full'>
+      <div className='max-w-full flex flex-col justify-center items-center w-full h-full'>
       <div className='max-w-full w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 px-8'>
             <p className='lg:text-3xl font-bold inline border-b-2 border-sky-500 text-3xl font-omiofont2'>
