@@ -21,17 +21,20 @@ const Navbar = () => {
             Works
           </Link>
         </li>
-        <li className="hover:text-sky-500">
-          <a href="https://drive.google.com/file/d/1iCoNKXhtCz84HoPDUf9KcEZk9L5Msf4-/view?usp=sharing "
-            target="_blank"
-            rel="noreferrer">
-            Resume
-          </a>
-        </li>
+
         <li className="hover:text-sky-500">
           <Link to="about" smooth={true} offset={0} duration={500}>
             About
           </Link>
+        </li>
+        <li className="hover:text-sky-500">
+          <a
+            href="https://drive.google.com/file/d/1iCoNKXhtCz84HoPDUf9KcEZk9L5Msf4-/view?usp=sharing "
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </li>
 
         <li className="hover:text-sky-500">
@@ -81,13 +84,7 @@ const Navbar = () => {
             Works
           </Link>
         </li>
-        <li className="py-3 text-2xl">
-          <a href="https://drive.google.com/file/d/1iCoNKXhtCz84HoPDUf9KcEZk9L5Msf4-/view?usp=sharing "
-            target="_blank"
-            rel="noreferrer">
-            Resume
-          </a>
-        </li>
+
         <li className="py-3 text-2xl">
           <Link
             onClick={handleClick}
@@ -98,6 +95,15 @@ const Navbar = () => {
           >
             About
           </Link>
+        </li>
+        <li className="py-3 text-2xl">
+          <a
+            href="https://drive.google.com/file/d/1iCoNKXhtCz84HoPDUf9KcEZk9L5Msf4-/view?usp=sharing "
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
         </li>
         <li className="py-3 text-2xl">
           <a
