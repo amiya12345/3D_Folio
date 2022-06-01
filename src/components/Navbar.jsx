@@ -12,18 +12,18 @@ const Navbar = () => {
 
       <ul className="hidden md:flex font-omiofont3 text-[16px] ">
         <li className="hover:text-sky-500">
-          <Link to="home" smooth={true} offset={0} duration={500}>
+          <Link to="home" smooth={true} offset={0} duration={1000}>
             Home
           </Link>
         </li>
         <li className="hover:text-sky-500">
-          <Link to="work" smooth={true} offset={0} duration={500}>
+          <Link to="work" smooth={true} offset={0} duration={1000}>
             Works
           </Link>
         </li>
 
         <li className="hover:text-sky-500">
-          <Link to="about" smooth={true} offset={0} duration={500}>
+          <Link to="about" smooth={true} offset={0} duration={1000}>
             About
           </Link>
         </li>
@@ -68,7 +68,7 @@ const Navbar = () => {
             to="home"
             smooth={true}
             offset={0}
-            duration={700}
+            duration={1500}
           >
             Home
           </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
             to="work"
             smooth={true}
             offset={0}
-            duration={700}
+            duration={1500}
           >
             Works
           </Link>
@@ -91,7 +91,7 @@ const Navbar = () => {
             to="about"
             smooth={true}
             offset={0}
-            duration={700}
+            duration={1500}
           >
             About
           </Link>
