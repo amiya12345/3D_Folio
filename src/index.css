@@ -3,62 +3,50 @@
 @tailwind utilities;
 
 @font-face {
-  font-family:'PPMonumentExtended-Black';
-  src: url(./assets/fonts/PPMonumentExtended-Black.otf)
+  font-family: "PPMonumentExtended-Black";
+  src: url(./assets/fonts/PPMonumentExtended-Black.otf);
 }
 @font-face {
-  font-family:PPMonumentExtended-Regular ;
+  font-family: PPMonumentExtended-Regular;
   src: url(./assets/fonts/PPMonumentExtended-Regular.otf);
 }
 @font-face {
-  font-family: 'PPMonumentExtended-Light';
+  font-family: "PPMonumentExtended-Light";
   src: url(./assets/fonts/PPMonumentExtended-Light.otf);
 }
 @layer base {
-  body{
-   
-  
-  
+  body {
   }
 
-  li{
+  li {
     @apply px-8;
     @apply cursor-pointer;
-   
   }
-html{
-  overflow-y:none;
+  html {
+    overflow-y: none;
+  }
 }
-
-
-}
-.content-div{
+.content-div {
   background-image: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   aspect-ratio: 16 / 9;
-
-
 }
-.content-di{
+.content-di {
   aspect-ratio: 16/9;
   background-image: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
-  
 }
 
-.content-div:hover{
+.content-div:hover {
   transition: 1s ease;
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
   opacity: 0.8;
   transition: smooth;
   -webkit-transition: smooth;
   -moz-transition: smooth;
   -ms-transition: smooth;
   -o-transition: smooth;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-              
-
-
