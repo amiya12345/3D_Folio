@@ -81,7 +81,7 @@ const Navbar = () => {
             Works
           </Link>
         </li>
-        <li className="hover:text-sky-500">
+        <li className="py-3 text-2xl">
           <a href="https://drive.google.com/file/d/1iCoNKXhtCz84HoPDUf9KcEZk9L5Msf4-/view?usp=sharing "
             target="_blank"
             rel="noreferrer">
