@@ -35,7 +35,7 @@ const Home = () => {
           3D Generalist | NFT Geek{" "}
         </p>
       </motion.div>
-      <div className="max-h-[80rem] mt-0 mb-auto ml-auto mr-auto overflow-hidden">
+      <div className="max-h-[100vh] mt-0 mb-auto ml-auto mr-auto overflow-hidden">
         <div className="w-full h-full flex">
           <Spline scene="https://draft.spline.design/TUzOCtxP59E5CxOg/scene.spline" />
         </div>
