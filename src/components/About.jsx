@@ -27,7 +27,7 @@ const About = () => {
               involving 3D animations on various NFT marketplace. Lately, I’ve
               attained some knowledge in coding, mainly front-end development &
               I’m intrigued by the possibilities offered by the Metaverse and 3D
-              Design.Currently I’m a final-year student at NIT Rourkela.{" "}
+              Design.Currently Working as 3D Designer at <a href="https://www.rario.com/">RARIO</a>.{" "}
             </p>
           </div>
         </div>
