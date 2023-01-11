@@ -37,7 +37,7 @@ const Home = () => {
       </motion.div>
       <div className="max-h-[100vh] mt-0 mb-auto ml-auto mr-auto overflow-hidden">
         <div className="w-full h-full flex">
-          <Spline scene="https://draft.spline.design/v6AdwdWuWZgZDBwM/scene.splinecode" />
+          <Spline scene="https://draft.spline.design/FCxHPakYEjrhJAcr/scene.splinecode" />
         </div>
       </div>
     </section>
