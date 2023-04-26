@@ -98,7 +98,7 @@ const Navbar = () => {
         </li>
         <li className="py-3 text-2xl">
           <a
-            href="https://drive.google.com/file/d/1ba5ezx06gCnh1rJEasKEqxiaweutHuBR/view?usp=share_link"
+            href="https://drive.google.com/file/d/1QYavr3GQk9gEzY9dxjec9NN2zNrmeLyF/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
