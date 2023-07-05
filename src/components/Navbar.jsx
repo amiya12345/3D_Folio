@@ -37,15 +37,7 @@ const Navbar = () => {
           </a>
         </li>
 
-        <li className="hover:text-sky-500">
-          <a
-            href="https://nft.wazirx.org/amiya_fury/created?sort=created-desc"
-            target="_blank"
-            rel="noreferrer"
-          >
-            NFTs
-          </a>
-        </li>
+        
       </ul>
 
       {/* Omio man burger */}
@@ -105,15 +97,7 @@ const Navbar = () => {
             Resume
           </a>
         </li>
-        <li className="py-3 text-2xl">
-          <a
-            href="https://nft.wazirx.org/amiya_fury/created?sort=created-desc"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Nfts
-          </a>
-        </li>
+      
       </ul>
     </div>
   );
