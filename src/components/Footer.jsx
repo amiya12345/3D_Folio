@@ -61,7 +61,7 @@ const Footer = () => {
                 </span>
                 <span className="my-2 px-4">
                   <a
-                    href="https://dribbble.com/ard_design"
+                    href="https://dribbble.com/AR_3Design"
                     target="_blank"
                     rel="noreferrer"
                     className="text-nft text-md hover:text-blue-500"
