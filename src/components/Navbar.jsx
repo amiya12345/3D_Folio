@@ -36,15 +36,7 @@ const Navbar = () => {
             Resume
           </a>
         </li>
-             <li className="hover:text-sky-500">
-          <a
-            href="https://drive.google.com/file/d/1QYavr3GQk9gEzY9dxjec9NN2zNrmeLyF/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Resume
-          </a>
-        </li>    
+          
         <li className="hover:text-sky-500">
           <a
             href="https://ar3d.vercel.app/"
