@@ -29,7 +29,7 @@ const Navbar = () => {
         </li>
         <li className="hover:text-sky-500">
           <a
-            href="https://drive.google.com/file/d/1QYavr3GQk9gEzY9dxjec9NN2zNrmeLyF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1GXnEQ58GvUf4DCZOpGv7u8borjZVemS5/view"
             target="_blank"
             rel="noreferrer"
           >
